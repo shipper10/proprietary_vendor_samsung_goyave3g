@@ -1,4 +1,4 @@
-﻿bin/at_distributor
+bin/at_distributor
 bin/batterysrv
 bin/calibration_init
 bin/engpc
