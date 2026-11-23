@@ -62,5 +62,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/goyave3g/proprietary/lib/libsprd_agps_agent.so:system/lib/libsprd_agps_agent.so \
     vendor/samsung/goyave3g/proprietary/vendor/firmware/BCM43430A1_001.002.009.0013.0017_ORC_Goya_VE_37_4MHz.hcd:system/vendor/firmware/BCM43430A1_001.002.009.0013.0017_ORC_Goya_VE_37_4MHz.hcd \
     vendor/samsung/goyave3g/proprietary/vendor/firmware/goyave3gREV02/BCM43430A1_001.002.009.0013.0015_ORC_Goya_VE.hcd:system/vendor/firmware/goyave3gREV02/BCM43430A1_001.002.009.0013.0015_ORC_Goya_VE.hcd \
-    vendor/samsung/goyave3g/proprietary/vendor/firmware/vbc_eq:system/vendor/firmware/vbc_eq \
     vendor/samsung/goyave3g/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so
