@@ -63,3 +63,34 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/goyave3g/proprietary/vendor/firmware/BCM43430A1_001.002.009.0013.0017_ORC_Goya_VE_37_4MHz.hcd:system/vendor/firmware/BCM43430A1_001.002.009.0013.0017_ORC_Goya_VE_37_4MHz.hcd \
     vendor/samsung/goyave3g/proprietary/vendor/firmware/goyave3gREV02/BCM43430A1_001.002.009.0013.0015_ORC_Goya_VE.hcd:system/vendor/firmware/goyave3gREV02/BCM43430A1_001.002.009.0013.0015_ORC_Goya_VE.hcd \
     vendor/samsung/goyave3g/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so
+
+# GPU / camera / sensors / codecs / wifi firmware (stock 4.4.4 blobs, T116XXU0AQA2).
+# gralloc, hwcomposer, lights, sprd_gsp, audio are built from source in the device tree.
+PRODUCT_COPY_FILES += \
+    vendor/samsung/goyave3g/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
+    vendor/samsung/goyave3g/proprietary/lib/libboost.so:system/lib/libboost.so \
+    vendor/samsung/goyave3g/proprietary/lib/libisp.so:system/lib/libisp.so \
+    vendor/samsung/goyave3g/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
+    vendor/samsung/goyave3g/proprietary/lib/libuvdenoise.so:system/lib/libuvdenoise.so \
+    vendor/samsung/goyave3g/proprietary/lib/libbt-hci.so:system/lib/libbt-hci.so \
+    vendor/samsung/goyave3g/proprietary/lib/libomx_aacdec_sprd.so:system/lib/libomx_aacdec_sprd.so \
+    vendor/samsung/goyave3g/proprietary/lib/libomx_avcdec_hw_sprd.so:system/lib/libomx_avcdec_hw_sprd.so \
+    vendor/samsung/goyave3g/proprietary/lib/libomx_avcenc_hw_sprd.so:system/lib/libomx_avcenc_hw_sprd.so \
+    vendor/samsung/goyave3g/proprietary/lib/libomx_m4vh263dec_hw_sprd.so:system/lib/libomx_m4vh263dec_hw_sprd.so \
+    vendor/samsung/goyave3g/proprietary/lib/libomx_m4vh263enc_hw_sprd.so:system/lib/libomx_m4vh263enc_hw_sprd.so \
+    vendor/samsung/goyave3g/proprietary/lib/libomx_mp3dec_sprd.so:system/lib/libomx_mp3dec_sprd.so \
+    vendor/samsung/goyave3g/proprietary/lib/libomx_vpxdec_hw_sprd.so:system/lib/libomx_vpxdec_hw_sprd.so \
+    vendor/samsung/goyave3g/proprietary/lib/hw/camera.sc8830.so:system/lib/hw/camera.sc8830.so \
+    vendor/samsung/goyave3g/proprietary/lib/hw/sensors.sc8830.so:system/lib/hw/sensors.sc8830.so \
+    vendor/samsung/goyave3g/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/goyave3g/proprietary/lib/modules/mali.ko:system/lib/modules/mali.ko \
+    vendor/samsung/goyave3g/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/goyave3g/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/goyave3g/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/goyave3g/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/goyave3g/proprietary/etc/wifi/nvram_mfg_DCXO.txt:system/etc/wifi/nvram_mfg_DCXO.txt \
+    vendor/samsung/goyave3g/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/goyave3g/proprietary/etc/wifi/nvram_net_DCXO.txt:system/etc/wifi/nvram_net_DCXO.txt \
+    vendor/samsung/goyave3g/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/goyave3g/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/goyave3g/proprietary/bin/gps.cer:system/bin/gps.cer
