@@ -90,4 +90,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/goyave3g/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/goyave3g/proprietary/etc/wifi/nvram_mfg_DCXO.txt:system/etc/wifi/nvram_mfg_DCXO.txt \
     vendor/samsung/goyave3g/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/goyave3g/proprietary/etc/wifi/nvram_net_DCXO.txt:system/etc/wifi/nvram_net_DCXO.txt
+    vendor/samsung/goyave3g/proprietary/etc/wifi/nvram_net_DCXO.txt:system/etc/wifi/nvram_net_DCXO.txt \
+    vendor/samsung/goyave3g/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/goyave3g/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/goyave3g/proprietary/bin/gps.cer:system/bin/gps.cer
