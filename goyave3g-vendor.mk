@@ -83,7 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/goyave3g/proprietary/lib/hw/camera.sc8830.so:system/lib/hw/camera.sc8830.so \
     vendor/samsung/goyave3g/proprietary/lib/hw/sensors.sc8830.so:system/lib/hw/sensors.sc8830.so \
     vendor/samsung/goyave3g/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/goyave3g/proprietary/lib/modules/mali.ko:system/lib/modules/mali.ko \
     vendor/samsung/goyave3g/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/goyave3g/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/goyave3g/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
@@ -93,4 +92,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/goyave3g/proprietary/etc/wifi/nvram_net_DCXO.txt:system/etc/wifi/nvram_net_DCXO.txt \
     vendor/samsung/goyave3g/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/goyave3g/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/goyave3g/proprietary/bin/gps.cer:system/bin/gps.cer
+    vendor/samsung/goyave3g/proprietary/bin/gps.cer:system/bin/gps.cer \
+    vendor/samsung/goyave3g/proprietary/lib/libion.so:system/lib/libion.so
